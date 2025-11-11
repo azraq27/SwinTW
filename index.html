@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>My Talk</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Reveal.js core CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css"
+  />
+
+  <!-- Reveal.js theme (change 'white' to 'black', 'league', 'blood', etc. if you like) -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css"
+    id="theme"
+  />
+
+  <!-- Optional: tweak fonts / basic layout -->
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+    }
+
+    /* Slightly wider content area for image-heavy slides */
+    .reveal .slides {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Make images scale nicely by default */
+    .reveal section img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!--
+        This tells Reveal to load your slides from slides.md.
+
+        Separators:
+        - '---'  = new horizontal slide
+        - '--'   = new vertical slide (stacked under the current one)
+        - 'Note:' at start of a line = speaker notes
+      -->
+      <section
+        data-markdown="slides.md"
+        data-separator="^---$"
+        data-separator-vertical="^--$"
+        data-separator-notes="^Note:"
+      ></section>
+    </div>
+  </div>
+
+  <!-- Reveal.js core JS -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+
+  <!-- Plugins: Markdown + code highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+
+  <script>
+    Reveal.initialize({
+      hash: true,          // URL updates with slide number (nice for sharing)
+      slideNumber: true,   // show slide numbers
+      center: true,        // vertically center content
+      controls: true,      // next/prev arrows
+      progress: true,      // progress bar
+      history: true,
+      plugins: [RevealMarkdown, RevealHighlight],
+    });
+  </script>
+</body>
+</html>
