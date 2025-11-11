@@ -4,7 +4,7 @@
 
 ---
 
-![[Figure 1.]](img/IMG_0139.jpeg){height=“100%”}
+![[Figure 1.]](img/IMG_0139.jpeg)
 
 ---
 
