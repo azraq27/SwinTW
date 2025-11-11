@@ -8,6 +8,27 @@
 
 ---
 
+![[Figure 2.]](img/IMG_0140.jpeg)
+
+---
+
+![[Figure 3.]](img/IMG_0141.jpeg)
+
+---
+
+![[Figure 4.]](img/IMG_0143.jpeg)
+
+---
+
+![[Figure 5.]](img/IMG_0144.jpeg)
+
+---
+
+![[Figure 6.]](img/IMG_0145.jpeg)
+
+---
+
+
 [Article:](https://iopscience.iop.org/article/10.1088/1741-2552/adab21)
 
 [Link to sample sounds:](https://xc1490.github.io/swinTW/)
